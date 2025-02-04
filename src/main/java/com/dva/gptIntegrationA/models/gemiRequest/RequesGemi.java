@@ -1,4 +1,4 @@
-package com.dva.gptIntegration.models.gemiRequest;
+package com.dva.gptIntegrationA.models.gemiRequest;
 
 import java.io.Serializable;
 

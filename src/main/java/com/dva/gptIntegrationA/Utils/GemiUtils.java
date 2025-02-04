@@ -1,4 +1,4 @@
-package com.dva.gptIntegration.Utils;
+package com.dva.gptIntegrationA.Utils;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 
-import com.dva.gptIntegration.models.gemiRequest.RequesGemi;
+import com.dva.gptIntegrationA.models.gemiRequest.RequesGemi;
 
 import lombok.extern.slf4j.Slf4j;
 

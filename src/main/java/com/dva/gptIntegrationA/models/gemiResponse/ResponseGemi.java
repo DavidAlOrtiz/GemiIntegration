@@ -1,4 +1,4 @@
-package com.dva.gptIntegration.models.gemiResponse;
+package com.dva.gptIntegrationA.models.gemiResponse;
 
 import java.io.Serializable;
 import java.util.List;

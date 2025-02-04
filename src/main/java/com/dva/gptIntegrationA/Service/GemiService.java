@@ -1,21 +1,14 @@
-package com.dva.gptIntegration.Service;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+package com.dva.gptIntegrationA.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.dva.gptIntegration.Utils.GemiUtils;
-import com.dva.gptIntegration.models.gemiRequest.RequesGemi;
-import com.dva.gptIntegration.models.gemiResponse.ResponseGemi;
+import com.dva.gptIntegrationA.Utils.GemiUtils;
+import com.dva.gptIntegrationA.models.gemiRequest.RequesGemi;
+import com.dva.gptIntegrationA.models.gemiResponse.ResponseGemi;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -23,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class GemiService implements IGemiService {
 
-    @Value("${openai.api.url}")
+    @Value("${gemini.api.url}")
     private String apiUrl;
 
     @Autowired
