@@ -28,7 +28,7 @@ public class GemiService implements IGemiService {
         ResponseGemi response = restTemplate.postForObject(apiUrl, GemiUtils.buildRequest(gemiRequest),
                 ResponseGemi.class);
 
-        return response.getCandidates().getFirst().getContent().getParts().getFirst();
+        return response.getCandidates().get(0).getContent().getParts().get(0);
     }
 
 }
